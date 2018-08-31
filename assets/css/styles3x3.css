@@ -1,0 +1,98 @@
+.blanco-texto-negro {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: white;
+    color: black;
+    }
+    
+.negro-texto-blanco {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background: black;
+    color: white;
+    }
+
+
+section {
+    display: grid;
+    grid-template-columns: repeat( 3, 1fr)
+    }
+
+#ajedrez {
+    display: grid;
+    grid-template-columns: repeat( 4, 1fr);
+    
+}
+
+    section p {
+    font-size: 3rem;
+    }
+
+    .texto-claro {
+        color: white;
+        }
+
+    .amarillo {
+    background: yellow;
+    display: flex;
+    justify-content: center;
+    align-items: center;    }
+    
+    .azul {
+    background: blue;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .rojo {
+    background: red;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .verde {
+    background: green;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .naranja {
+    background: orange;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .violeta {
+    background: violet;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .gris {
+    background: gray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    .indigo {
+    background: indigo;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    }
+
+
+
+
+
